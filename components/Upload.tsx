@@ -104,7 +104,7 @@ const Upload =  ({onComplete} : UploadProps) =>{
             onDragLeave={handleDragLeave}
             onDrop={handleDrop}
             >
-                <input type="file" className='drop-input' accept='.jgp, .jpeg, .png'
+                <input type="file" className='drop-input' accept='.jpg, .jpeg, .png'
                 disabled = {!isSignedIn}   onChange={handleChange}/>
                 <div className='drop-content'> 
                     <div className='drop-icon'>

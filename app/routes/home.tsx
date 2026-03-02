@@ -21,6 +21,9 @@ export default function Home() {
     return true;
 
   }
+
+
+  
   return (
   <div className="home">
     <Navbar/>
