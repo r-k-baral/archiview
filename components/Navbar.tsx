@@ -30,7 +30,7 @@ return(
                     <div className='brand'>
                         <House className='logo'/>
                         <span className='name'>
-                            archiview
+                            Archiview
                         </span>
                     </div>
                     <ul className='links'>
